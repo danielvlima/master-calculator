@@ -20,33 +20,40 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;    
-    background-color: rgb(36, 42, 76);
-   
+    background-color: rgb(36, 42, 76); 
     
+      
 }
 
 .botao{
+    
     margin: 2px;
     width: 40px;
     height: 40px;
     color: white;
     background-color: rgb(52, 57, 87);
+    border: none;
+    
     
 }
-.botao-igual{
+
+.botao-igual{   
     margin: 2px;    
     color: red;
     width: 40px;
+    height: 106px;    
     background-color: rgb(79, 85, 111);
+    border: none;
     
 }
 
 .botao-vermelho{
-    margin: 1px;
+    margin: 2px;
     width: 40px;
     height: 40px;
     color: red;
     background-color: rgb(79, 85, 111);
+    border: none;
     
 
 }
@@ -56,12 +63,11 @@ body{
     height: 40px;
     color: white;
     background-color: rgb(52, 57, 87);
+    border: none;
     
 }
 
-table td{
-    display:inline-block;
-}
+
 .resultado{
     height: 100px;
 }
