@@ -16,8 +16,8 @@ body{
 .conteiner-botoes{
     display: flex;
     align-items: flex-end;    
-    width: 170px;
-    height: 290px;
+    width: 27,2vh;
+    height: 46,4vh;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -39,6 +39,9 @@ body{
     
     
 }
+.botao:hover{
+    background-color: rgb(103, 114, 151);
+}
 
 .botao-igual{   
     margin: 0px;    
@@ -48,6 +51,9 @@ body{
     background-color: rgb(255, 54, 99);
     border: none;
     
+}
+.botao-igual:hover{
+    background-color: rgb(255, 106, 139);
 }
 
 .botao-vermelho{
@@ -60,6 +66,9 @@ body{
     
 
 }
+.botao-vermelho:hover{
+    background-color: rgb(103, 114, 151);
+}
 .botao-delete{
     margin: 0px;
     width: 40px;
@@ -69,8 +78,25 @@ body{
     border: none;
     
 }
+.botao-delete:hover{
+    background-color: rgb(103, 114, 151);
+}
 
+.tela-display{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    height: 80px;
+    width: 170px;
+    background-color: rgb(52, 57, 87);    
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
-.resultado{
-    height: 100px;
+h1{
+    color: white;
+    font-size: 24px;
+    margin-right: 6px;
 }
