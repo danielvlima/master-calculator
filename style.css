@@ -39,6 +39,9 @@ body{
     
     
 }
+.botao:hover{
+    background-color: rgb(103, 114, 151);
+}
 
 .botao-igual{   
     margin: 0px;    
@@ -48,6 +51,9 @@ body{
     background-color: rgb(255, 54, 99);
     border: none;
     
+}
+.botao-igual:hover{
+    background-color: rgb(255, 106, 139);
 }
 
 .botao-vermelho{
@@ -60,6 +66,9 @@ body{
     
 
 }
+.botao-vermelho:hover{
+    background-color: rgb(103, 114, 151);
+}
 .botao-delete{
     margin: 0px;
     width: 40px;
@@ -69,8 +78,15 @@ body{
     border: none;
     
 }
-
-
-.resultado{
-    height: 100px;
+.botao-delete:hover{
+    background-color: rgb(103, 114, 151);
 }
+
+/* .tela-display{
+    display: flex;
+    height: 48vh;
+    width: 180px;
+    background-color: rgb(41, 41, 41);
+    margin-left: 36%;
+    margin-top: 22%;
+} */
