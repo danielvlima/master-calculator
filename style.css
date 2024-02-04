@@ -16,8 +16,8 @@ body{
 .conteiner-botoes{
     display: flex;
     align-items: flex-end;    
-    width: 27,2vh;
-    height: 46,4vh;
+    width: 170px;
+    height: 290px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -84,19 +84,9 @@ body{
 
 .tela-display{
     display: flex;
-    justify-content: flex-end;
-    align-items: end;
-    height: 80px;
-    width: 170px;
-    background-color: rgb(52, 57, 87);    
-    position: absolute;
-    top: 27%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-h1{
-    color: white;
-    font-size: 24px;
-    margin-right: 6px;
+    height: 48vh;
+    width: 180px;
+    background-color: rgb(41, 41, 41);
+    margin-left: 36%;
+    margin-top: 22%;
 }
